@@ -1,62 +1,66 @@
-🦙 TinyLlama Voice Chat System
-🎙️ AI-Powered Real-Time Conversational Assistant
-📘 Project Overview
+# 🦙 TinyLlama Voice Chat System  
+### 🎙️ AI-Powered Real-Time Conversational Assistant  
 
-The TinyLlama Voice Chat System is a lightweight, locally hosted conversational AI application that enables real-time voice-based interaction with an AI model.
-It combines speech recognition, natural language processing (NLP), and text-to-speech (TTS) technologies to create a hands-free conversational experience.
+---
 
-The system uses the TinyLlama-1.1B Chat model hosted via LM Studio, integrated with a FastAPI backend and HTML/Gradio frontend for seamless interaction.
-It can also generate PDF summaries of conversations for analysis or record-keeping.
+## 📘 **Project Overview**
 
-🧠 Key Features
+The **TinyLlama Voice Chat System** is a lightweight, locally hosted conversational AI application that enables **real-time voice-based interaction** with an AI model.  
+It combines **Speech Recognition**, **Natural Language Processing (NLP)**, and **Text-to-Speech (TTS)** technologies to create a seamless **hands-free conversational experience**.  
 
-🎤 Voice Input: Converts user speech into text using the SpeechRecognition library.
+The system uses the **TinyLlama-1.1B Chat model**, hosted locally via **LM Studio**, and integrates it with a **FastAPI backend** and **HTML/Gradio frontend** for a smooth, interactive experience.  
+Additionally, it can **generate PDF summaries** of conversations for documentation or research purposes.  
 
-💬 TinyLlama Model: Processes queries using TinyLlama-1.1B-Chat, a lightweight large language model hosted locally.
+---
 
-🔊 Voice Output: Converts AI-generated text responses back to voice using pyttsx3 or gTTS.
+## 🧠 **Key Features**
 
-⚙️ FastAPI Backend: Handles model interaction, voice processing, and PDF report generation.
+| Feature | Description |
+|----------|-------------|
+| 🎤 **Voice Input** | Converts user speech into text using the `SpeechRecognition` library. |
+| 💬 **TinyLlama Model** | Processes queries using `TinyLlama-1.1B-Chat`, a lightweight LLM hosted locally via LM Studio. |
+| 🔊 **Voice Output** | Converts AI-generated text responses to speech using `pyttsx3` or `gTTS`. |
+| ⚙️ **FastAPI Backend** | Manages AI model interaction, voice processing, and PDF report generation. |
+| 🌐 **Frontend Interface** | Built using **Gradio** or **HTML/CSS/JavaScript** for a user-friendly interface. |
+| 🧾 **Conversation Summaries** | Automatically generates downloadable **PDF summaries** of user–AI interactions. |
+| 🔒 **Offline & Private** | Works completely offline — no cloud API or internet required. |
 
-🌐 Frontend Interface: Built using Gradio or HTML/CSS/JavaScript for user-friendly interaction.
+---
 
-🧾 Conversation Summaries: Automatically generates downloadable PDF summaries of user–AI interactions.
+## 🧩 **How It Works**
 
-🔒 Offline & Private: Runs locally without the need for cloud APIs or internet access.
+1. 🎙️ The user **speaks** into the microphone.  
+2. 🧠 The system uses **SpeechRecognition** to convert **voice → text**.  
+3. 🤖 The text is sent to the **TinyLlama-1.1B Chat model** for processing.  
+4. 💬 The model generates a **natural language response**.  
+5. 🔊 The response is **converted to speech** for playback.  
+6. 🧾 The entire conversation can be **saved as a PDF summary** using `ReportLab`.  
 
+---
 
-🧩 How It Works
+## 💻 **Tech Stack**
 
-🎙️ User speaks into the microphone.
+| Layer | Technology Used |
+|--------|----------------|
+| 🧠 **Model** | TinyLlama-1.1B Chat (LM Studio) |
+| ⚙️ **Backend** | FastAPI |
+| 💻 **Frontend** | HTML / CSS / JavaScript / Gradio |
+| 🎙️ **Voice Input** | SpeechRecognition |
+| 🔊 **Voice Output** | pyttsx3 / gTTS |
+| 🧾 **PDF Generation** | ReportLab |
+| 🐍 **Language** | Python |
 
-🧠 The system uses SpeechRecognition to convert voice → text.
+---
 
-🤖 Text is sent to TinyLlama-1.1B Chat model for natural language processing.
+## 🚀 **Applications**
 
-💬 The model generates a conversational response.
+✅ **Voice-based AI assistants**  
+✅ **Policy research and analysis tools**  
+✅ **Educational assistants for students**  
+✅ **Accessibility solutions for visually impaired users**  
+✅ **Smart Q&A and information retrieval systems**
 
-🔊 The response is converted back to speech for voice playback.
+---
 
-🧾 The conversation can be saved as a PDF summary using ReportLab.
-
-💻 Tech Stack
-Layer	Technology Used
-Model	TinyLlama-1.1B Chat (LM Studio)
-Backend	FastAPI
-Frontend	HTML / CSS / JavaScript / Gradio
-Voice Input	SpeechRecognition
-Voice Output	pyttsx3 / gTTS
-PDF Generation	ReportLab
-Programming Language	Python
-
-🚀 Applications
-
-Voice-based AI assistants
-
-Policy research and analysis
-
-Educational tools for students
-
-Accessibility for visually impaired users
-
-Smart Q&A and information retrieval systems
+## 🧑‍💻 **Developed By**
+**👩‍💻 Aadhya A**  
