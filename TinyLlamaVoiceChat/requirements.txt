@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+requests
+speechrecognition
+pyttsx3
+gtts
+pydantic
+reportlab
+gradio
